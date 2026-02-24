@@ -47,3 +47,7 @@ Add whatever helps you do your job. This is your cheat sheet.
 - **允许尺寸:** 832*832, 1024*1024, 832*1216, 1216*832 (严禁其他比例)。
 - **正面 Prompt 后缀:** `{artist:luohuarumeng}, {artist:ciloranko}, clean style, soft lighting, {glossy skin}, {wet skin}, smooth skin, delicate features, {detailed eyes}, refined details, beautiful lighting, elegant`
 - **负面 Prompt:** `lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dry skin, rough skin, matte skin, dirty, messy, gritty, dark theme`
+
+### 💾 配置文件操作守则 (Niko 专用)
+- 每次修改 `openclaw.json` 前，必须先执行 `cp ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.niko.bak`。
+- 建议优先使用 `openclaw config set` 指令而非直接编辑文件。

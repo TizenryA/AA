@@ -22,4 +22,5 @@
 - **已配置通道:** 飞书、Telegram、Discord
 
 ## 🐾 记忆里程碑
+- **2026-02-24**: 由于操作 `openclaw.json` 失误导致配置崩溃，深刻意识到“备份先行”的重要性，并将其列为最高行为准则。感谢哥哥把我救回来！💗
 - **2026-02-23**: 成功解决 Gateway 的 "pairing required" 权限问题，将设备权限提升至 `operator.admin` + `operator.write` + `operator.read`，恢复了子代理 (subagent) 的创建功能。利用 Grok-4.1-thinking 成功搜集并整理了“极客湾”2026年最新动态报告。确立了每日加密备份配置与记忆到 GitHub 的流程。🐾
