@@ -1,0 +1,2428 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.23",
+    "lastTouchedAt": "2026-02-24T08:29:22.036Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-24T08:29:21.975Z",
+    "lastRunVersion": "2026.2.23",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "custom-cpa77": {
+        "baseUrl": "https://cpa77.zeabur.app/v1",
+        "apiKey": "000123",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen3-235b-a22b-instruct",
+            "name": "qwen3-235b-a22b-instruct (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "foxcode/claude-opus-4-6",
+            "name": "foxcode/claude-opus-4-6 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/grok-4-0709-search",
+            "name": "hybori/grok-4-0709-search (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "ggbom/GPT-5.2 Codex",
+            "name": "ggbom/GPT-5.2 Codex (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/gemini-3-pro-image-4K",
+            "name": "liuw/gemini-3-pro-image-4K (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "minimax-m2.5",
+            "name": "minimax-m2.5 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5.1",
+            "name": "gpt-5.1 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5.1-codex",
+            "name": "gpt-5.1-codex (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/gemini-2.5-pro",
+            "name": "hybori/hyb-Optimal/gemini-2.5-pro (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/claude-sonnet-4-6",
+            "name": "liuw/claude-sonnet-4-6 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "ggbom/GPT-5",
+            "name": "ggbom/GPT-5 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "iflow-rome-30ba3b",
+            "name": "iflow-rome-30ba3b (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "BusinessGemini/gemini-3-pro-preview",
+            "name": "BusinessGemini/gemini-3-pro-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "deepseek-v3.2-chat",
+            "name": "deepseek-v3.2-chat (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "glm-5",
+            "name": "glm-5 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/gemini-3-pro-preview",
+            "name": "hybori/gemini-3-pro-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "minimax-m2.1",
+            "name": "minimax-m2.1 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "foxcode/claude-opus-4-5",
+            "name": "foxcode/claude-opus-4-5 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "BusinessGemini/gemini-3.1-pro-preview",
+            "name": "BusinessGemini/gemini-3.1-pro-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/gemini-3-pro-image",
+            "name": "liuw/gemini-3-pro-image (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "qwen3-max-preview",
+            "name": "qwen3-max-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "qwen3-32b",
+            "name": "qwen3-32b (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "BusinessGemini/gemini-veo",
+            "name": "BusinessGemini/gemini-veo (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/grok-4.1-thinking",
+            "name": "hybori/grok-4.1-thinking (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/grok-4-fast-expert",
+            "name": "hybori/grok-4-fast-expert (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-2.5-pro",
+            "name": "gemini-2.5-pro (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5-codex-mini",
+            "name": "gpt-5-codex-mini (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "qwen3-235b",
+            "name": "qwen3-235b (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5.3-codex",
+            "name": "gpt-5.3-codex (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5-codex",
+            "name": "gpt-5-codex (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "kimi-k2-0905",
+            "name": "kimi-k2-0905 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/gemini-3-flash-preview",
+            "name": "hybori/gemini-3-flash-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "bohe/gemini-3-pro-preview-bs",
+            "name": "bohe/gemini-3-pro-preview-bs (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/Business/gemini-3-pro-preview",
+            "name": "hybori/hyb-Optimal/Business/gemini-3-pro-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "bohe/gemini-2.5-pro-bs",
+            "name": "bohe/gemini-2.5-pro-bs (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "glm-4.6",
+            "name": "glm-4.6 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "BusinessGemini/gemini-auto",
+            "name": "BusinessGemini/gemini-auto (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-3-flash-preview",
+            "name": "gemini-3-flash-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/gemini-3-pro-image-2K",
+            "name": "liuw/gemini-3-pro-image-2K (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/gemini抗截断系列/gemini-2.5-pro-search",
+            "name": "hybori/hyb-Optimal/gemini抗截断系列/gemini-2.5-pro-search (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "BusinessGemini/gemini-imagen",
+            "name": "BusinessGemini/gemini-imagen (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/gemini-3-pro-high",
+            "name": "liuw/gemini-3-pro-high (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5.2-codex",
+            "name": "gpt-5.2-codex (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "qwen3-coder-plus",
+            "name": "qwen3-coder-plus (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "deepseek-r1",
+            "name": "deepseek-r1 (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "minimax-m2",
+            "name": "minimax-m2 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/claude-opus-4-6-thinking",
+            "name": "liuw/claude-opus-4-6-thinking (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/claude-opus-4-5",
+            "name": "liuw/claude-opus-4-5 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-3-pro-preview",
+            "name": "gemini-3-pro-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "qwen3-235b-a22b-thinking-2507",
+            "name": "qwen3-235b-a22b-thinking-2507 (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/gemini抗截断系列/gemini-2.5-pro-maxthinking",
+            "name": "hybori/hyb-Optimal/gemini抗截断系列/gemini-2.5-pro-maxthinking (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/z-ai/glm4.7",
+            "name": "hybori/z-ai/glm4.7 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "ggbom/GPT-5.3 Codex",
+            "name": "ggbom/GPT-5.3 Codex (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "kimi-k2-thinking",
+            "name": "kimi-k2-thinking (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "ggbom/GPT-5.1",
+            "name": "ggbom/GPT-5.1 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "deepseek-v3.2",
+            "name": "deepseek-v3.2 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "bohe/gpt-5.3-codex",
+            "name": "bohe/gpt-5.3-codex (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/antigravity/gemini-3-pro-high",
+            "name": "hybori/hyb-Optimal/antigravity/gemini-3-pro-high (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/grok-4-expert",
+            "name": "hybori/grok-4-expert (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "ggbom/GPT-5.2",
+            "name": "ggbom/GPT-5.2 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "BusinessGemini/gemini-2.5-flash",
+            "name": "BusinessGemini/gemini-2.5-flash (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/MiniMaxAI/MiniMax-M2",
+            "name": "hybori/MiniMaxAI/MiniMax-M2 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "ggbom/GPT-5.3",
+            "name": "ggbom/GPT-5.3 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "foxcode/claude-opus-4-5-20251101-thinking",
+            "name": "foxcode/claude-opus-4-5-20251101-thinking (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "bohe/gemini-3-flash-preview",
+            "name": "bohe/gemini-3-flash-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "deepseek-v3.1",
+            "name": "deepseek-v3.1 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/antigravity/gemini-3-pro-image",
+            "name": "hybori/hyb-Optimal/antigravity/gemini-3-pro-image (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5.2",
+            "name": "gpt-5.2 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "kimi-k2",
+            "name": "kimi-k2 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/gemini-3-pro-image-preview",
+            "name": "hybori/hyb-Optimal/gemini-3-pro-image-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/Business/gemini-3-pro-image-preview",
+            "name": "hybori/hyb-Optimal/Business/gemini-3-pro-image-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "bohe/gemini-2.5-flash",
+            "name": "bohe/gemini-2.5-flash (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/gemini-3-flash-preview",
+            "name": "hybori/hyb-Optimal/gemini-3-flash-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "deepseek-v3",
+            "name": "deepseek-v3 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "foxcode think/claude-opus-4-6",
+            "name": "foxcode think/claude-opus-4-6 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/grok-4",
+            "name": "hybori/grok-4 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "bohe/gpt-5.2-high",
+            "name": "bohe/gpt-5.2-high (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/gemini-3-pro-preview-search",
+            "name": "hybori/hyb-Optimal/gemini-3-pro-preview-search (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-2.5-flash",
+            "name": "gemini-2.5-flash (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/gemini-2.5-pro",
+            "name": "liuw/gemini-2.5-pro (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "foxcode think/claude-opus-4-5",
+            "name": "foxcode think/claude-opus-4-5 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5",
+            "name": "gpt-5 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/gemini抗截断系列/gemini-3-pro-image",
+            "name": "hybori/hyb-Optimal/gemini抗截断系列/gemini-3-pro-image (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5.1-codex-mini",
+            "name": "gpt-5.1-codex-mini (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "tstars2.0",
+            "name": "tstars2.0 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "glm-4.7",
+            "name": "glm-4.7 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/gemini-2.5-flash",
+            "name": "liuw/gemini-2.5-flash (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/gemini抗截断系列/gemini-2.5-flash-maxthinking",
+            "name": "hybori/hyb-Optimal/gemini抗截断系列/gemini-2.5-flash-maxthinking (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/gemini-3-flash",
+            "name": "hybori/gemini-3-flash (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "zai1/glm-4.7",
+            "name": "zai1/glm-4.7 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "foxcode/claude-opus-4-5-thinking",
+            "name": "foxcode/claude-opus-4-5-thinking (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/deepseek-ai/DeepSeek-V3.2",
+            "name": "hybori/deepseek-ai/DeepSeek-V3.2 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/gemini-3-pro-preview",
+            "name": "hybori/hyb-Optimal/gemini-3-pro-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "BusinessGemini/gemini-2.5-pro",
+            "name": "BusinessGemini/gemini-2.5-pro (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/hyb-Optimal/antigravity/gemini-3-pro-low",
+            "name": "hybori/hyb-Optimal/antigravity/gemini-3-pro-low (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "deepseek-v3.2-reasoner",
+            "name": "deepseek-v3.2-reasoner (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-2.5-flash-lite",
+            "name": "gemini-2.5-flash-lite (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gpt-5.1-codex-max",
+            "name": "gpt-5.1-codex-max (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "qwen3-vl-plus",
+            "name": "qwen3-vl-plus (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/moonshotai/kimi-k2-thinking",
+            "name": "hybori/moonshotai/kimi-k2-thinking (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "ggbom/GPT-5.1 Codex",
+            "name": "ggbom/GPT-5.1 Codex (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "liuw/claude-opus-4-6",
+            "name": "liuw/claude-opus-4-6 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/moonshotai/kimi-k2.5",
+            "name": "hybori/moonshotai/kimi-k2.5 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "qwen3-max",
+            "name": "qwen3-max (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "foxcode/claude-sonnet-4-5-20250929-thinking",
+            "name": "foxcode/claude-sonnet-4-5-20250929-thinking (custom-cpa77)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "hybori/grok-4-heavy",
+            "name": "hybori/grok-4-heavy (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "BusinessGemini/gemini-3-flash-preview",
+            "name": "BusinessGemini/gemini-3-flash-preview (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "kimi-k2.5 (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "ggbom/GPT-5.1 Codex Max",
+            "name": "ggbom/GPT-5.1 Codex Max (custom-cpa77)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          }
+        ]
+      },
+      "foxcode": {
+        "baseUrl": "https://code.newcli.com/claude/aws",
+        "apiKey": "sk-ant-oat01-gdaniE4ueD7csIwAz_fav_2R_3GbnPxOAjOamDtjqkMStR3ekn4byc15Gvcb6b4ix9_ckEQt-khzLyBZzJbA3h2OcFmblAA",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "claude-sonnet-4-6 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-opus-4-6",
+            "name": "claude-opus-4-6 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-opus-4-5",
+            "name": "claude-opus-4-5 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-opus-4-5-20251101",
+            "name": "claude-opus-4-5-20251101 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-opus-4-5-thinking",
+            "name": "claude-opus-4-5-thinking (Foxcode)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-opus-4-5-20251101-thinking",
+            "name": "claude-opus-4-5-20251101-thinking (Foxcode)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-sonnet-4-5",
+            "name": "claude-sonnet-4-5 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-sonnet-4-5-20250929",
+            "name": "claude-sonnet-4-5-20250929 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-sonnet-4-5-thinking",
+            "name": "claude-sonnet-4-5-thinking (Foxcode)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-sonnet-4-5-20250929-thinking",
+            "name": "claude-sonnet-4-5-20250929-thinking (Foxcode)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-haiku-4-5-20251001",
+            "name": "claude-haiku-4-5-20251001 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-opus-4",
+            "name": "claude-opus-4 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-opus-4-20250514",
+            "name": "claude-opus-4-20250514 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-opus-4-1",
+            "name": "claude-opus-4-1 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-opus-4-1-20250805",
+            "name": "claude-opus-4-1-20250805 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "claude-sonnet-4-20250514",
+            "name": "claude-sonnet-4-20250514 (Foxcode)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          }
+        ]
+      },
+      "buisness": {
+        "baseUrl": "https://bs77.zeabur.app/v1",
+        "apiKey": "000123",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gemini-auto",
+            "name": "gemini-auto (buisness)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-2.5-flash",
+            "name": "gemini-2.5-flash (buisness)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-2.5-pro",
+            "name": "gemini-2.5-pro (buisness)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-3-flash-preview",
+            "name": "gemini-3-flash-preview (buisness)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-3-pro-preview",
+            "name": "gemini-3-pro-preview (buisness)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-3.1-pro-preview",
+            "name": "gemini-3.1-pro-preview (buisness)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-imagen",
+            "name": "gemini-imagen (buisness)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          },
+          {
+            "id": "gemini-veo",
+            "name": "gemini-veo (buisness)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8196
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "custom-cpa77/gemini-3-pro-preview"
+      },
+      "models": {
+        "custom-cpa77/gemini-3-flash-preview": {},
+        "custom-cpa77/liuw/gemini-2.5-flash": {},
+        "custom-cpa77/hybori/hyb-Optimal/gemini抗截断系列/gemini-2.5-flash-maxthinking": {},
+        "custom-cpa77/hybori/gemini-3-flash": {},
+        "custom-cpa77/zai1/glm-4.7": {},
+        "custom-cpa77/foxcode/claude-opus-4-5-thinking": {},
+        "custom-cpa77/hybori/deepseek-ai/DeepSeek-V3.2": {},
+        "custom-cpa77/hybori/hyb-Optimal/gemini-3-pro-preview": {},
+        "custom-cpa77/hybori/hyb-Optimal/antigravity/gemini-3-pro-low": {},
+        "custom-cpa77/deepseek-v3.2-reasoner": {},
+        "custom-cpa77/gemini-2.5-flash-lite": {},
+        "custom-cpa77/gpt-5.1-codex-max": {},
+        "custom-cpa77/qwen3-vl-plus": {},
+        "custom-cpa77/hybori/moonshotai/kimi-k2-thinking": {},
+        "custom-cpa77/liuw/claude-opus-4-6": {},
+        "custom-cpa77/hybori/moonshotai/kimi-k2.5": {},
+        "custom-cpa77/qwen3-max": {},
+        "custom-cpa77/foxcode/claude-sonnet-4-5-20250929-thinking": {},
+        "custom-cpa77/hybori/grok-4-heavy": {},
+        "custom-cpa77/kimi-k2.5": {},
+        "custom-cpa77/qwen3-235b-a22b-instruct": {},
+        "custom-cpa77/foxcode/claude-opus-4-6": {},
+        "custom-cpa77/hybori/grok-4-0709-search": {},
+        "custom-cpa77/liuw/gemini-3-pro-image-4K": {},
+        "custom-cpa77/minimax-m2.5": {},
+        "custom-cpa77/gpt-5.1": {},
+        "custom-cpa77/gpt-5.1-codex": {},
+        "custom-cpa77/hybori/hyb-Optimal/gemini-2.5-pro": {},
+        "custom-cpa77/liuw/claude-sonnet-4-6": {},
+        "custom-cpa77/iflow-rome-30ba3b": {},
+        "custom-cpa77/deepseek-v3.2-chat": {},
+        "custom-cpa77/glm-5": {},
+        "custom-cpa77/hybori/gemini-3-pro-preview": {},
+        "custom-cpa77/minimax-m2.1": {},
+        "custom-cpa77/foxcode/claude-opus-4-5": {},
+        "custom-cpa77/liuw/gemini-3-pro-image": {},
+        "custom-cpa77/qwen3-max-preview": {},
+        "custom-cpa77/qwen3-32b": {},
+        "custom-cpa77/hybori/grok-4.1-thinking": {},
+        "custom-cpa77/hybori/grok-4-fast-expert": {},
+        "custom-cpa77/gemini-2.5-pro": {},
+        "custom-cpa77/gpt-5-codex-mini": {},
+        "custom-cpa77/qwen3-235b": {},
+        "custom-cpa77/gpt-5.3-codex": {},
+        "custom-cpa77/gpt-5-codex": {},
+        "custom-cpa77/kimi-k2-0905": {},
+        "custom-cpa77/hybori/gemini-3-flash-preview": {},
+        "custom-cpa77/bohe/gemini-3-pro-preview-bs": {},
+        "custom-cpa77/hybori/hyb-Optimal/Business/gemini-3-pro-preview": {},
+        "custom-cpa77/bohe/gemini-2.5-pro-bs": {},
+        "custom-cpa77/glm-4.6": {},
+        "custom-cpa77/liuw/gemini-3-pro-image-2K": {},
+        "custom-cpa77/hybori/hyb-Optimal/gemini抗截断系列/gemini-2.5-pro-search": {},
+        "custom-cpa77/liuw/gemini-3-pro-high": {},
+        "custom-cpa77/gpt-5.2-codex": {},
+        "custom-cpa77/qwen3-coder-plus": {},
+        "custom-cpa77/deepseek-r1": {},
+        "custom-cpa77/minimax-m2": {},
+        "custom-cpa77/liuw/claude-opus-4-6-thinking": {},
+        "custom-cpa77/liuw/claude-opus-4-5": {},
+        "custom-cpa77/gemini-3-pro-preview": {},
+        "custom-cpa77/qwen3-235b-a22b-thinking-2507": {},
+        "custom-cpa77/hybori/hyb-Optimal/gemini抗截断系列/gemini-2.5-pro-maxthinking": {},
+        "custom-cpa77/hybori/z-ai/glm4.7": {},
+        "custom-cpa77/kimi-k2-thinking": {},
+        "custom-cpa77/deepseek-v3.2": {},
+        "custom-cpa77/bohe/gpt-5.3-codex": {},
+        "custom-cpa77/hybori/hyb-Optimal/antigravity/gemini-3-pro-high": {},
+        "custom-cpa77/hybori/grok-4-expert": {},
+        "custom-cpa77/hybori/MiniMaxAI/MiniMax-M2": {},
+        "custom-cpa77/foxcode/claude-opus-4-5-20251101-thinking": {},
+        "custom-cpa77/bohe/gemini-3-flash-preview": {},
+        "custom-cpa77/deepseek-v3.1": {},
+        "custom-cpa77/hybori/hyb-Optimal/antigravity/gemini-3-pro-image": {},
+        "custom-cpa77/gpt-5.2": {},
+        "custom-cpa77/kimi-k2": {},
+        "custom-cpa77/hybori/hyb-Optimal/gemini-3-pro-image-preview": {},
+        "custom-cpa77/hybori/hyb-Optimal/Business/gemini-3-pro-image-preview": {},
+        "custom-cpa77/bohe/gemini-2.5-flash": {},
+        "custom-cpa77/hybori/hyb-Optimal/gemini-3-flash-preview": {},
+        "custom-cpa77/deepseek-v3": {},
+        "custom-cpa77/foxcode think/claude-opus-4-6": {},
+        "custom-cpa77/hybori/grok-4": {},
+        "custom-cpa77/bohe/gpt-5.2-high": {},
+        "custom-cpa77/hybori/hyb-Optimal/gemini-3-pro-preview-search": {},
+        "custom-cpa77/gemini-2.5-flash": {},
+        "custom-cpa77/liuw/gemini-2.5-pro": {},
+        "custom-cpa77/foxcode think/claude-opus-4-5": {},
+        "custom-cpa77/gpt-5": {},
+        "custom-cpa77/hybori/hyb-Optimal/gemini抗截断系列/gemini-3-pro-image": {},
+        "custom-cpa77/gpt-5.1-codex-mini": {},
+        "custom-cpa77/tstars2.0": {},
+        "custom-cpa77/glm-4.7": {},
+        "foxcode/claude-sonnet-4-6": {},
+        "foxcode/claude-opus-4-6": {},
+        "foxcode/claude-opus-4-5": {},
+        "foxcode/claude-opus-4-5-20251101": {},
+        "foxcode/claude-opus-4-5-thinking": {},
+        "foxcode/claude-opus-4-5-20251101-thinking": {},
+        "foxcode/claude-sonnet-4-5": {},
+        "foxcode/claude-sonnet-4-5-20250929": {},
+        "foxcode/claude-sonnet-4-5-thinking": {},
+        "foxcode/claude-sonnet-4-5-20250929-thinking": {},
+        "foxcode/claude-haiku-4-5-20251001": {},
+        "foxcode/claude-opus-4": {},
+        "foxcode/claude-opus-4-20250514": {},
+        "foxcode/claude-opus-4-1": {},
+        "foxcode/claude-opus-4-1-20250805": {},
+        "foxcode/claude-sonnet-4-20250514": {},
+        "buisness/gemini-3.1-pro-preview": {},
+        "custom-cpa77/ggbom/GPT-5.2 Codex": {},
+        "custom-cpa77/ggbom/GPT-5": {},
+        "custom-cpa77/BusinessGemini/gemini-3-pro-preview": {},
+        "custom-cpa77/BusinessGemini/gemini-3.1-pro-preview": {},
+        "custom-cpa77/BusinessGemini/gemini-veo": {},
+        "custom-cpa77/BusinessGemini/gemini-auto": {},
+        "custom-cpa77/BusinessGemini/gemini-imagen": {},
+        "custom-cpa77/ggbom/GPT-5.3 Codex": {},
+        "custom-cpa77/ggbom/GPT-5.1": {},
+        "custom-cpa77/ggbom/GPT-5.2": {},
+        "custom-cpa77/BusinessGemini/gemini-2.5-flash": {},
+        "custom-cpa77/ggbom/GPT-5.3": {},
+        "custom-cpa77/BusinessGemini/gemini-2.5-pro": {},
+        "custom-cpa77/ggbom/GPT-5.1 Codex": {},
+        "custom-cpa77/BusinessGemini/gemini-3-flash-preview": {},
+        "custom-cpa77/ggbom/GPT-5.1 Codex Max": {},
+        "buisness/gemini-auto": {},
+        "buisness/gemini-2.5-flash": {},
+        "buisness/gemini-2.5-pro": {},
+        "buisness/gemini-3-flash-preview": {},
+        "buisness/gemini-3-pro-preview": {},
+        "buisness/gemini-imagen": {},
+        "buisness/gemini-veo": {}
+      },
+      "workspace": "/home/ubuntu/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "bootstrap-extra-files": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "open",
+      "botToken": "8413123045:AAFGseHTdIP3FW_QZ57-JC3l1IVsuXSn1FI",
+      "allowFrom": [
+        "*"
+      ],
+      "groupPolicy": "allowlist",
+      "streaming": "off"
+    },
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a91cdab6e0f8dcc2",
+      "appSecret": "yMS5TFb31O9tn7BUSbanY6jfRNViSiUe",
+      "domain": "feishu",
+      "groupPolicy": "open",
+      "dmPolicy": "open",
+      "allowFrom": [
+        "*"
+      ]
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "b59f3d2293fb672e9fafa559ba81ba6fc3dba7c6042bf19c"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "calendar.add",
+        "contacts.add",
+        "reminders.add"
+      ]
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "load": {
+      "paths": [
+        "/home/ubuntu"
+      ]
+    },
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "feishu": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "feishu": {
+        "source": "npm",
+        "spec": "@m1heng-clawd/feishu",
+        "installPath": "/home/ubuntu/.openclaw/extensions/feishu",
+        "version": "0.1.11",
+        "resolvedName": "@m1heng-clawd/feishu",
+        "resolvedVersion": "0.1.11",
+        "resolvedSpec": "@m1heng-clawd/feishu@0.1.11",
+        "integrity": "sha512-VG9Ud74AzjFOvTHcThB/HcKV9emg21E3OMOFGVAtmXhlAsA9BhTkFknr9CjhwYiFV8SAEdTQqD7cVG9UWm2r7A==",
+        "shasum": "2e34dd676106339dfa015e21015bf47b63e69801",
+        "resolvedAt": "2026-02-24T06:41:20.627Z",
+        "installedAt": "2026-02-24T06:41:54.994Z"
+      }
+    }
+  }
+}
