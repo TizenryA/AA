@@ -1,6 +1,18 @@
 # HEARTBEAT.md
 
-Check for pending notifications, cron job results, and system events.
-If nothing needs attention, reply HEARTBEAT_OK.
+每 30 分钟一次：检查是否有待处理任务/结果。
 
-- **Check Subagents**: Run `subagents list` to see if any tasks have finished. If a subagent is done but I haven't reported it, summarize the result and tell the user.
+## 检查项目
+
+1. **Cron 任务**：是否有新增/失败/需要处理的运行结果
+2. **子代理状态**：是否有完成但未汇报的任务
+3. **会话状态**：是否有异常/需要回复的消息
+4. **备份链路**：与 GitHub 备份相关的阻塞项是否解决（仓库/权限/冲突等）
+
+## 汇报格式
+
+- 如果有任务：
+  - 汇报任务名称和进度
+  - 说明下一步与预计完成时间
+- 如果没有任务：
+  - 回复 HEARTBEAT_OK
