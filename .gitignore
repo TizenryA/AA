@@ -1,2 +1,4 @@
 # Local-only state
 .openclaw/workspace-state.local.json
+**/node_modules
+**/cache
