@@ -1,0 +1,101 @@
+{
+  "feeds": [
+    {
+      "name": "BBC 世界",
+      "category": "politics",
+      "lang": "en",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "name": "BBC 科技",
+      "category": "tech",
+      "lang": "en",
+      "url": "http://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "name": "Al Jazeera",
+      "category": "politics",
+      "lang": "en",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "name": "Hacker News",
+      "category": "tech",
+      "lang": "en",
+      "url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "name": "Ars Technica",
+      "category": "tech",
+      "lang": "en",
+      "url": "http://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "name": "The Verge",
+      "category": "tech",
+      "lang": "en",
+      "url": "https://www.theverge.com/rss/index.xml"
+    },
+    {
+      "name": "MIT Technology Review",
+      "category": "tech",
+      "lang": "en",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "name": "Krebs on Security",
+      "category": "tech",
+      "lang": "en",
+      "url": "https://krebsonsecurity.com/feed/"
+    },
+    {
+      "name": "Google AI Blog",
+      "category": "ai",
+      "lang": "en",
+      "url": "https://ai.googleblog.com/feeds/posts/default?alt=rss"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "category": "ai",
+      "lang": "en",
+      "url": "https://blogs.nvidia.com/blog/feed/"
+    },
+
+    {
+      "name": "中国数字时代",
+      "category": "politics",
+      "lang": "zh",
+      "url": "https://chinadigitaltimes.net/chinese/feed"
+    },
+    {
+      "name": "Solidot",
+      "category": "tech",
+      "lang": "zh",
+      "url": "https://www.solidot.org/index.rss"
+    },
+    {
+      "name": "少数派",
+      "category": "tech",
+      "lang": "zh",
+      "url": "https://sspai.com/feed"
+    },
+    {
+      "name": "爱范儿",
+      "category": "tech",
+      "lang": "zh",
+      "url": "https://www.ifanr.com/feed"
+    },
+    {
+      "name": "V2EX 热门",
+      "category": "fun",
+      "lang": "zh",
+      "url": "https://www.v2ex.com/index.xml"
+    },
+    {
+      "name": "xkcd",
+      "category": "fun",
+      "lang": "en",
+      "url": "https://xkcd.com/rss.xml"
+    }
+  ]
+}
